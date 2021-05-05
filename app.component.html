@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+
+<div class="p">
+  <p>For more information please resister</p>
+</div>
+
+<body>
+  <div class="box">
+    <form action="/action_page.php">
+      <h1> Please Fill The Form</h1>
+      First Name: <input type="text" id="myText" name="fname" placeholder="Enter First Name" required>
+      Last Name: <input type="text" id="myText" name="Lname" placeholder="Enter Last Name" required><br><br>
+
+      Email: <input type="email" id="myText" name="Ename" placeholder="Enter Email" required><br><br>
+
+      Monthly Advertising Budget: <input type="number" id="myText" name="Mname" placeholder="Enter MAB"
+        required><br><br>
+
+      Phone Number: <input type="number" id="myText" name="Pname" placeholder="Enter PH. number" required><br><br>
+      <div>
+        <input type="submit" class="button" value="Submit" id="submit" onclick="popup()">
+      </div>
+    </form>
+  </div>
+
+
+  <script>
+    function popup() {
+      alert("Thank You");
+    }
+  </script>
+
+</body>
+
+</html>

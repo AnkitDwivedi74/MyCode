@@ -1,0 +1,38 @@
+body{
+    text-align: right;
+    background-color: aqua;
+    padding: 100px;
+}
+p{
+text-align: left;
+color:red;
+font-family: cursive;
+font-size: 20px;   
+}
+ .button{
+    background-color:black;
+    color: white;
+    font-family: Arial;
+    
+}
+.p{
+    background-color: gainsboro;
+    width: 340px;
+    height: 100px;
+    border:3px solid rgb(17, 0, 255);
+    position: fixed;
+    padding:20px;
+}
+.box{
+    background-color: rgb(152, 154, 251);
+    border: 2px solid red;
+    right: 0;
+    left: 0;
+    width:right;
+    padding: 20px;
+    
+    background-size: auto;
+
+
+
+}
